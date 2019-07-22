@@ -62,9 +62,9 @@ Fields may be made up of smaller parts from various locations in the source reco
 Test: Create test file with 500000 records.
 Duration: 00:00:18.1696518
 
-Test: Import file single threaded
+Test: Import file single threaded (1 thread)
 Duration: 00:00:09.9198364
 
-Test: Import file multi threaded
+Test: Import file multi threaded (8 threads)
 Duration: 00:00:02.5287117
 ~~~

@@ -1,0 +1,2 @@
+- Add error logger
+- Add unit tests

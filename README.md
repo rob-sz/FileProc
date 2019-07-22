@@ -51,3 +51,20 @@ Fields may be made up of smaller parts from various locations in the source reco
   - Example code showing how to create various fields.
   - Number of records in test file can be modified here.
 - Run FileProc console application to create file and run tests.
+
+#### Test Results
+
+*Processor:* Intel(R) Core(TM) i7-7820HQ CPU @ 2.90GHz, 2901 Mhz, 4 Core(s), 8 Logical Processor(s)  
+*Record Count:* 500,000  
+*Record Length:* 500  
+
+~~~
+Test: Create test file with 500000 records.
+Duration: 00:00:18.1696518
+
+Test: Import file single threaded
+Duration: 00:00:09.9198364
+
+Test: Import file multi threaded
+Duration: 00:00:02.5287117
+~~~
